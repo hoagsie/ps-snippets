@@ -35,7 +35,7 @@ public class Init : IModuleAssemblyInitializer, IModuleAssemblyCleanup
         }
 
         var snipPredictor = new PlaceholderPredictor(
-            BookmarkIdentifier,
+            SnippetIdentifier,
             "Snippets",
             "Predicts snip: snippets from ps-snippets.json in user profile",
             "ps-snippets.json",
